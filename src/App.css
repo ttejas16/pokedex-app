@@ -6,21 +6,21 @@
   width: 3px;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
   background: rgb(70, 70, 70);
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+::-webkit-input-placeholder { 
   color:black;
 }
 *{
@@ -491,4 +491,92 @@ html{
   padding: 4px;
   text-align: center;
   margin: 0.2vw;
+}
+@media only screen and (max-width: 425px) {
+  .bgtext{
+    top: 0;
+  }
+  .header-div h1{
+    font-size:1.5rem;
+  }
+  .card-container{
+    flex-direction: column;
+    margin-top: 40vh;
+  }
+  .card-data img{
+    height: 30vh;
+  }
+  .card-data p{
+    font-size: 1.2rem;
+  }
+  .input-form{
+    margin-top: 40vh;
+    /* width: 80%; */
+  }
+  .input-form input{
+    width: 50vw;
+    height: 3vh;
+    font-size: 1rem;
+  }
+  .input-form button{
+    font-size: 1rem;
+    width: 20vw;
+    height: 3vh;
+    padding-top:3px ;
+  }
+  .wrap{
+    margin-top: 30vh;
+  }
+  .description-wrapper{
+    flex-wrap: nowrap;
+  }
+  .description-wrapper h1{
+    font-size: 1.5rem;
+    margin-left: 3.5vh;
+  }
+  .description-wrapper img{
+    height: 40vh;
+  }
+  .types{
+    flex-direction: column;
+  }
+  .types p{
+    padding-top: 2px;
+    width: 20vw;
+    margin-top: 2px;
+  }
+  .info ul{
+    margin-top: 4vh;
+  }
+  .info p{
+    font-size: 1.3rem;
+    margin-left: 0.8vw;
+  }
+  .info li{
+    font-size: 1.15rem;
+    width: 35vw;
+    margin-left: 0;
+  }
+  .divider {
+    margin: 1vh 0vh;
+    width: 20vw;
+  }
+  .footer-wrapper{
+    margin-top: 20vh;
+  }
+  .footer-wrapper p{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .footer-wrapper a{
+    font-size: 25px;
+  }
+  .navbar h1{
+    padding-top: 0px;
+    font-size: 1.7rem;
+  }
+  .navbar a{
+    font-size: 0.8rem;
+    padding: 3px;
+  }
 }
